@@ -37,13 +37,27 @@ nav{
     text-decoration: none;
     color: #000;
 }
+.streetFood{
+    border: 3px solid black;
+    margin-left: 96px;
+    width: 400px;
+}
+.container{
+    display: flex;
+}
+.container img{
+    height: 576px;
+}
+.etogether{
+    border: 3px solid black;
+}
 .inview{
     margin-left: 8%;
     margin-right: 8%;
     border: 3px solid black;
 }
 .menu{
-    background-color: gray;
+    background-color: #EAF3E4;
 }
 .grid{
     display: grid;
@@ -81,4 +95,35 @@ nav{
     bottom: -24px;
     height: 104px;
     width: auto;
+}
+.deals{
+    background-color: #C9ECB5;
+}
+.juice{
+    position: relative;
+    left: 80px;
+    top: -80px;
+    height: 488px;
+}
+.juiceburger{
+    position: relative;
+    height: 224px;
+    right: 40px;
+    bottom: -200px;
+}
+.dealsCombo{
+    display: flex;
+    justify-content: space-between;
+}
+.comboPack{
+    border: 3px solid black;
+    width: 544px;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.space{
+    height: 80px;
 }
