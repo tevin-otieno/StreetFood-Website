@@ -10,14 +10,20 @@ h2{
     display: flex;
     justify-content: space-around;
     padding-top: 40px;
+    color: #6CB840;
+}
+h2 ::first-letter{
+    color: #000;
 }
 footer{
-    border: 2px solid black;
     justify-content: space-between;
     display: flex;
+    height: 336px;
+    background-color: #C9ECB5;
 }
 .header{
     background-color: #E5E5E5;
+    height: 656px;
 }
 nav{
     display: flex;
@@ -43,7 +49,6 @@ nav{
     color: #000;
 }
 .streetFood{
-    border: 3px solid black;
     margin-left: 96px;
     width: 400px;
 }
@@ -54,12 +59,19 @@ nav{
     height: 576px;
 }
 .etogether{
-    border: 3px solid black;
+    position: relative;
+    padding-top: 80px;
+    top: 40px;
+}
+.etogether > h1{
+    color: #EAAB1B;
+}
+.etogether > p{
+    padding-top: 40px;
 }
 .inview{
     margin-left: 8%;
     margin-right: 8%;
-    border: 3px solid black;
 }
 .menu{
     background-color: #EAF3E4;
@@ -121,14 +133,41 @@ nav{
     justify-content: space-between;
 }
 .comboPack{
-    border: 3px solid black;
     width: 544px;
 }
-.contact{
+.contactus{
+    background-color: #FFD77C
+}
+.contact, .email, .send{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 24px;
+}
+.email > input{
+    height: 24px;
 }
 .space{
     height: 80px;
+}
+.days{
+    padding: 32px;
+    flex-grow: 2;
+    align-items: center;
+}
+.days > p{
+    padding-top: 32px;
+}
+.address{
+    flex-grow: 3;
+    padding: 48px;
+    margin-top: 32px;
+}
+.social{
+    padding-left: 64px;
+    padding-top: 64px;
+    flex-grow: 3;
+}
+.icons{
+    flex-grow: 1;
 }
